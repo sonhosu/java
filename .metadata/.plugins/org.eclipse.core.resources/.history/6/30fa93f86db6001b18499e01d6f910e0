@@ -1,0 +1,10 @@
+package 문제모음1;
+
+public class 홀짝판별 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

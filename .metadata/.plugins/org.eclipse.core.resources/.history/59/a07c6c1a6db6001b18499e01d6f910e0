@@ -1,0 +1,18 @@
+package 문제모음1;
+import java.util.Scanner;
+public class 시험성적평균과등급구하기 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int score= scan.nextInt();
+		System.out.print("국어:");
+		scan.nextInt();
+		System.out.print("영어:");
+		scan.nextInt();
+		System.out.print("수학:");
+		
+
+	}
+
+}

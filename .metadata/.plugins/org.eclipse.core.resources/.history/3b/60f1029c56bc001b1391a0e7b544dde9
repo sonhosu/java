@@ -1,0 +1,11 @@
+package heros;
+
+public class main {
+
+	public static void main(String[] args) {
+		Hero hr = new Hero();
+		hr.run();
+
+	}
+
+}

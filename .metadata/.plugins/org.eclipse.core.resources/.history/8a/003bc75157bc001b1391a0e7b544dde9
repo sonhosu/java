@@ -1,0 +1,11 @@
+package heros;
+
+public class main {
+//문 13
+	public static void main(String[] args) {
+		Hero hr = new SuperHero();
+		hr.run();
+
+	}
+
+}

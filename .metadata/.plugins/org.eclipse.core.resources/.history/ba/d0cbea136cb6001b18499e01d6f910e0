@@ -1,0 +1,10 @@
+package 문제모음1;
+
+public class 시험성적평균과등급구하기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

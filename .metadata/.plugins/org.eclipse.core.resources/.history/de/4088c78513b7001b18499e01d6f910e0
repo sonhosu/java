@@ -1,0 +1,10 @@
+package 문제모음1;
+
+public class Prime_Number_program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Constructor;
+
+public class main {
+
+	public static void main(String[] args) {
+		item it = new item(null, 0);
+		
+		it.display();
+	}
+
+}

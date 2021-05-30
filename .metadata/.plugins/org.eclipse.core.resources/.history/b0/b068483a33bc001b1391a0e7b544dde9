@@ -1,0 +1,25 @@
+package 문제모음1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int num = 11;
+		
+		
+		double num2 = 3;
+		
+		int a=123;
+		int b=456;
+		int c=789;
+		int sum=a+b+c;
+		System.out.println(sum);
+		
+		for(int i=0; i<10; i++) {
+			
+			System.out.println(i);
+		}
+
+	}
+
+}

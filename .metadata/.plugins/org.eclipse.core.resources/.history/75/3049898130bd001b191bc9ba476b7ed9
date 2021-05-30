@@ -1,0 +1,12 @@
+package Constructor;
+
+public class item {
+String name;
+int sales;
+
+public item(String name, int sales) {
+	this.name=name;
+	this.sales=sales;
+}
+
+}

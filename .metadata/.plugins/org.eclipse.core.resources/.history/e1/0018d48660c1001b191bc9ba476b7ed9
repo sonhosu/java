@@ -1,0 +1,21 @@
+package 문제모음1;
+
+import java.util.Scanner;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		int n;
+		int k;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("숫자 입력");
+		n=scan.nextInt();
+		
+		for(int i=0; i<n; i++) {
+			k=i+1;
+			
+			System.out.println(k);
+		}
+	}
+
+}

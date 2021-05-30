@@ -1,0 +1,11 @@
+package heros;
+
+public class SuperHero {
+
+	public void fly() {
+		System.out.println("비행");
+	}
+	public void land() {
+		System.out.println("착지");
+	}
+}

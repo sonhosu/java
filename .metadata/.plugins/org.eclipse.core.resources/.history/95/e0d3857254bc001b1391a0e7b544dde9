@@ -1,0 +1,16 @@
+package test2;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Test ts = new Test();
+		String name =ts.getName();
+		int age = ts.getAge();
+		
+		System.out.println("내이름은"+name+"입니다");
+		System.out.println("내나이는"+age+"입니다.");
+
+	}
+
+}
