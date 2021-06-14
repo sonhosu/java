@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/hi")
-public class Nana extends HttpServlet{
+@WebServlet("/notice-reg")
+public class NoticeReg extends HttpServlet{
 	
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -19,14 +19,11 @@ public class Nana extends HttpServlet{
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		
-		int cnt =Integer.parseInt(request.getParameter("cnt")) ;
+		String title =request.getParameter("title");
+		String content =request.getParameter("content");
 		
+		out.println(title);
+		out.println(content);
 		
-		
-		
-			
-		for(int i=0; i<cnt; i++) {
-			out.println((i+1)+":안녕 servlet <br >");
-		}
 	}
 }
